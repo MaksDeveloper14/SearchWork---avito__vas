@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://hongru.github.io/proj/canvas2image/canvas2image.js"></script>
+</head>
+<body>
+	<div class="app">
+
+		<h1 class="app__title">Создайте баннер</h1>
+
+		<!-- баннер на канвас -->
+		<canvas id="canvas" class="banner"></canvas>
+
+
+		<form class="form" action="">
+			<input class="form__input-options" id="width" type="number" placeholder="Задайте для ширину баннера">
+			<input class="form__input-options" id="height" type="number" placeholder="Задайте высоту для баннер">
+			<input class="form__input-image" type="text" placeholder="Вставьте ссылку на изображение или выберите изображение со своего устройства">
+			<input class="form__input-image" id="fileInput" type="file" accept="image/jpeg, image/png">
+			<input class="form__input-text" type="text" placeholder="Напишите текст баннера">
+			<input type="submit" class="form__btn app-banner__btn active" value="Создать баннер">
+		</form>
+
+		<div class="buttons">
+			<button class="app-banner__btn app-banner__btn-save disabled" disabled>Сохранить картинку в png</button>
+			<button class="app-banner__btn disabled" disabled>Скопировать исходный код html</button>
+			<button class="app-banner__btn disabled" disabled>Скопировать json</button>
+		</div>
+
+	</div>
+
+
+
+
+
+
+	<script src="script.js"></script>
+
+</body>
+</html>

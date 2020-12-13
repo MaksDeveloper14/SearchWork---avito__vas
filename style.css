@@ -1,0 +1,121 @@
+/* Обнуление стилей от браузера */
+
+/* app */
+
+.app {
+
+}
+
+.app__title {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 38px;
+}
+
+
+/* canvas */
+
+canvas {
+	
+}
+
+
+/* баннер */
+
+.banner {
+	display: block;
+	position: relative;
+	width: 240px;
+	height: 400px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.banner__text {
+	position: absolute;
+	bottom: 10%;
+	/* так выравнивается абсолютный элемент по центру */
+	left:50%;
+	transform:translate(-50%, -50%);
+
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+.banner__image {
+	width: 100%;
+	height: 100%;
+}
+
+/* form */
+
+.form__input-options {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	height: 40px;
+	margin-bottom: 25px;
+	border: solid 2px black;
+}
+
+.form__input-image,
+.form__input-text {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	height: 40px;
+	margin-bottom: 25px;
+} 
+
+.form__input-text {
+	border: solid 2px black;
+}
+
+.form__btn {
+	margin-bottom: 50px;
+}
+
+.app-banner__btn {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.buttons {
+	margin-top: 75px;
+}
+
+
+
+/* Классы интерактивности */
+
+/* active, disabled */
+
+.active {
+	background-color: #122c9a;
+	color: white;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.active:hover {
+	background-color: #2041cc;
+}
+
+.active:active {
+	background-color: #122c9a;
+}
+
+.disabled {
+	background-color: #ec2626;
+	color: white;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: not-allowed;
+	opacity: .7;
+}
