@@ -35,7 +35,6 @@ function getPreviewCanvas() {
 	img.src = 'https://adbutton.net/content/ru/articles/81.jpg'; // Загружаем файл изображения
 	img.onload = function() {
 		ctx.drawImage(img, 0, 0, canvas.width, canvas.height); // Отрисовка изображения на холсте (только когда изображение загрузилось уже)
-		
 		// ctx.font = "30px Arial";
 		// ctx.fillStyle = "red";
 		// ctx.textAlign = "center";
