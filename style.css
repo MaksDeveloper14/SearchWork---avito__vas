@@ -1,3 +1,9 @@
+body {
+	background: url('https://i.pinimg.com/originals/1d/36/1b/1d361beed6a05c5d22cf2b35ef614497.jpg') no-repeat;
+	background-size: cover;
+}
+
+
 /* Обнуление стилей от браузера */
 
 /* app */
@@ -10,6 +16,8 @@
 	text-align: center;
 	margin-bottom: 50px;
 	font-size: 38px;
+	color: white;
+	letter-spacing: 4px;
 }
 
 
@@ -96,7 +104,7 @@ canvas {
 /* active, disabled */
 
 .active {
-	background-color: #122c9a;
+	background-color: #377d37;
 	color: white;
 	font-size: 18px;
 	border-radius: 10px;
@@ -104,15 +112,15 @@ canvas {
 }
 
 .active:hover {
-	background-color: #2041cc;
+	background-color: #428842;
 }
 
 .active:active {
-	background-color: #122c9a;
+	background-color: #377d37;
 }
 
 .disabled {
-	background-color: #ec2626;
+	background-color: #f35555;
 	color: white;
 	font-size: 18px;
 	border-radius: 10px;

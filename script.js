@@ -32,7 +32,7 @@ getPreviewCanvas();
 // первоначальное изображение на canvas
 function getPreviewCanvas() {
 	let img = new Image(); // Создаем объект изображения
-	img.src = 'https://i.ytimg.com/vi/p1GL462nPGo/hqdefault.jpg'; // Загружаем файл изображения
+	img.src = 'https://adbutton.net/content/ru/articles/81.jpg'; // Загружаем файл изображения
 	img.onload = function() {
 		ctx.drawImage(img, 0, 0, canvas.width, canvas.height); // Отрисовка изображения на холсте (только когда изображение загрузилось уже)
 		
